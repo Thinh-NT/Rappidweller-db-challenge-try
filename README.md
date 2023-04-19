@@ -1,15 +1,3 @@
-# DEV Challenge (DB/Python/Node.js/Java)
-
-Hey there and a wonderful good day!
-
-Thanks so much for applying to our recent position and your interest to become part of our dwellerTeam. We like to move further with your application. 
-
-We are seeking an **enthusiastic** and **self-motivated developer**. You will be working on our **modern technology stack** and in an **international environment** that promotes collaboration within/across teams and managing both internal/external stakeholders.
-
-We like to understand if working together in the future will be a good fit for you and us. As we are seeking a dweller who will be able to cope with our stack, and feel comfortable with our technical setup and upcoming challenges, we have prepared the following coding challenge for you. 
-
----
-
 ## Challenge description: What to achieve
 
 - Use the prepared **./postgres/init.sql** to create the challenges data structure ( for the quickstart you can use the docker-compose.yml we prepared for you, this is starting a Postgres container with the prepared init.sql script in case you have docker and docker-compose installed on your machine )
@@ -83,27 +71,9 @@ result should look like this
     </generate>
 ```
 
-### Nice to have
-
-- Leave us a star on our GitHub repository ( https://github.com/rapiddweller/rapiddweller-benerator-ce )
-- Try to predict the column contains sensitive data ( Name & surname, Email, Location data, Home address, IP address) and use a **encrypt** node instead of the **attribute** node
-- Try to predict the column contains a password and use a **hash** node instead of the **attribute** node
-- Try to predict the column contains a credit card number and use a **mask** node instead of the **attribute** node
-
 ### Sidenotes
 
 - There are no specific constraints on how to solve this challenge, Python, Node.js or Java is the frame and it is up to you to fill this framework with your solution to achieve the goal.
 - The estimated time for this challenge should not exceed 4 to 8 hours.
-
----
-
-## Next steps
-
-- When you are ready, please write us an email and submit your solution as a zip file (workwithus@rapiddweller.com). 
-- Given your successful completion, we will schedule a session to discuss your activities.
-  
-Best and talk again soon,\
-Alex & Peter.\
-co-founder rapiddweller  
 
 __© Copyright 2019-2023, rapiddweller GmbH. All rights reserved.__

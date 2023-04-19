@@ -41,7 +41,7 @@ for table in table_list:
     cursor._rs = method
     cursor._meta = method.getMetaData()
     read_results = cursor.fetchall()
-    # THe index of information base on row will be hard code for now, it maybe add more mapping
+    # The index of information base on row will be hard code for now, it maybe add more mapping
     reference_dict[table] = {
         row[2]: {'name': row[11], 'from': row[7]} for row in read_results}
 
@@ -65,7 +65,7 @@ for key, refs in reference_dict.items():
             tables_order += to_appends
             tables_order.append(key)
 
-# Add remain tables, anywhere can work, don't know why I use index 0
+# Add remain tables, anywhere will work
 for front_table in fronts:
     if front_table not in tables_order:
         tables_order.insert(0, front_table)
